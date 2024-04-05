@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+}
+
+.card {
+  flex: 1;
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 10px;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.usd {
+  background-color: black;
+  color: green;
+}
+
+.gbp {
+  background-color: black;
+  color: green;
+}
+
+.eur {
+  background-color: black;
+  color: green;
+}
+
+.card-title {
+  color: white;
+}
+
+.card-text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.currency-symbol {
+  font-weight: bold;
+  color: white;
+}
+
+.currency-code {
+  margin-left: 10px;
+}
+
+body {
+  background-color: lightgreen;
+}
